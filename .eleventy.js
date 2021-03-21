@@ -1,6 +1,7 @@
 module.exports = (config) => {
 
   // config.addFilter('markdown', markdown);
+  config.addPassthroughCopy('assets/css');
 
   return {
     dir: {
@@ -8,7 +9,7 @@ module.exports = (config) => {
       output: 'dist'
     },
     htmlTemplateEngine: 'njk',
-		templateFormats: ['njk', 'md', 'html'],
+		templateFormats: ['njk', 'md', 'html', 'css'],
     passthroughFileCopy: true
   };
 };

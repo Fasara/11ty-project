@@ -4,6 +4,9 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	{% block style %}
+		<link rel="stylesheet" href="/assets/css/global.css">
+	{% endblock %}
 	<title>Document</title>
 </head>
 <body>
@@ -15,7 +18,7 @@
 		</nav>
 		<section>
 			{% block main %}
-				{{ content | markdown | safe }}
+				{{ content |safe }}
 			{% endblock %}
 		</section>
     </main> 
