@@ -7,14 +7,17 @@
 	<title>Document</title>
 </head>
 <body>
-    <header>Site Header
-        <a href="/About">About</a>
-    </header>
+    <header></header>
     <main>
-		{% block main %}
-			{{ content | markdown | safe }}
-		{% endblock %}
-		{% include "layout.njk" %}
+		<nav>
+			<a href="#">Home</a>
+			<a href="#">About</a>
+		</nav>
+		<section>
+			{% block main %}
+				{{ content | markdown | safe }}
+			{% endblock %}
+		</section>
     </main> 
     <footer>Site Footer</footer> 
 </body>
