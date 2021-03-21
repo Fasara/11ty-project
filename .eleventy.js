@@ -2,6 +2,7 @@ module.exports = (config) => {
 
   // config.addFilter('markdown', markdown);
   config.addPassthroughCopy('/assets/images');
+  config.addPassthroughCopy('/assets/css');
   config.addWatchTarget('assets/css');
 
   return {

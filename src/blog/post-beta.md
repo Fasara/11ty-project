@@ -1,5 +1,5 @@
 ---
-title: Post pf the day
+title: Post of the day
 layout: post
 tags: posts
 ---
