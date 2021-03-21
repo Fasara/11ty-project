@@ -1,5 +1,5 @@
 ---
 title: Learning something new
-layout: posts
+layout: post
 tags: posts
 ---

@@ -1,6 +1,6 @@
 ---
 title: My first post
-layout: posts
+layout: post
 tags: posts
 ---
 

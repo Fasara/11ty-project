@@ -1,5 +1,5 @@
 ---
 title: writing about something
-layout: posts
+layout: post
 tags: posts
 ---
